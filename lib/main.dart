@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'auth/login_page.dart';
+import 'auth_gate.dart';
 // import 'package:cloud_firestore/cloud_firestore.dart';
 import 'services/firestore_service.dart';
 
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
       ),
-      home: const NotesHomePage(),
+      home: const AuthGate(),
     );
   }
 }
