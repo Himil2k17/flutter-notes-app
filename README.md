@@ -27,4 +27,4 @@ A full-featured Flutter notes application with Firebase Authentication and Fires
 4. Run `flutter run`
 
 ## Author
-Built by **Your Name**
+Built by Himil Barot
