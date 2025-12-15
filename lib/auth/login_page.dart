@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import '../main.dart';
+// import '../main.dart';
 import 'signup_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -75,7 +75,7 @@ class _LoginPageState extends State<LoginPage> {
                   TextField(
                     controller: emailController,
                     keyboardType: TextInputType.emailAddress,
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                     decoration: InputDecoration(
                       labelText: 'Email',
                       labelStyle: TextStyle(color: Colors.grey.shade400),
@@ -97,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
                   TextField(
                     controller: passwordController,
                     obscureText: true,
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                     decoration: InputDecoration(
                       labelText: 'Password',
                       labelStyle: TextStyle(color: Colors.grey.shade400),
